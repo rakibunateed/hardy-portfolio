@@ -1,88 +1,241 @@
-
 .open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
-.header{
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin: 0px;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header {
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-color: #FFF8F3;
 }
 
 /* nav section */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800;
     font-size: 45px;
     margin-top: 50px;
-    margin-left:230px;
+    margin-left: 230px;
 
 }
-.colour{
+
+.colour {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #FD6E0A;
     border-radius: 5px;
     padding: 18px 35px;
     font-size: 20px;
     font-weight: bold;
     color: #FFFFFF;
-    border: none;
+    border: 1px solid #FFFFFF;
 }
-.dark-2{
+
+.dark-2 {
     color: #474747;
 }
-nav ul{
-   display: flex;
-   align-items: center;
-   margin-top: 50px;
-   margin-right:230px;
 
-   
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 230px;
+
+
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     font-size: 20px;
     margin-right: 51px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
 }
 
 
 /* banner section */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 230px;
 }
 
-.banner-content{
+.banner-content {
     width: 580px;
+    margin-top: 180px;
 
 }
-.banner-title{
+
+.banner-title {
     font-size: 45px;
     font-weight: 600;
+    margin: 0px;
 }
 
-.banner-sub{
-    font-size: 45px;
+.banner-sub {
+    font-size: 85px;
     font-weight: 700;
     color: #181818;
+    margin: 0px;
 }
 
-.banner-pic{
-    width: 580px;
 
+.contact-btn {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    margin-left: 30px;
+}
+
+.banner-pic {
+    width: 580px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    border-radius: 10px;
+    padding: 130px 155px;
+    text-align: center;
+}
+
+.about-section {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.about-items {
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+.item-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 0;
+}
+
+.item-description {
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+    margin: 0;
+}
+
+.do {
+    text-align: center;
+    margin: 130px 0 50px 0;
+}
+
+.hero {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 130px;
+}
+
+.hero-card {
+    background-color: #FFFFFF;
+    text-align: left;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px #0000000F;
+    border-radius: 5px;
+}
+
+.hero-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+
+}
+
+.hero-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+
+}
+
+.summary {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.edu-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.edu-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.edu-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 0;
+}
+
+.edu-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.resume {
+    display: flex;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+
+.Download{
+    display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: 113px;   
 }
