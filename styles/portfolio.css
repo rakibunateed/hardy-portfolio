@@ -5,6 +5,12 @@
     font-variation-settings:
         "wdth" 100;
 }
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+} */
 
 .section-title {
     font-size: 35px;
@@ -233,9 +239,87 @@ main {
     margin-bottom: 50px;
 }
 
-.Download{
+.Download {
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+footer {
+    padding: 130px 230px;
+
+    background-color: #FFF8F3;
+}
+
+.foot-container {
+    max-width: 1140px;
+    margin: 0 auto;
     display: flex;
-  justify-content: center; 
-  align-items: center; 
-  margin-bottom: 113px;   
+}
+
+.foot-tile {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.connect-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    padding-right: 117px;
+}
+
+footer input[type="text"] {
+    height: 40px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer input[type="email"] {
+    height: 40px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+footer input[type="submit"] {
+   background-color: #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+footer textarea {
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.icons {
+    gap: 30px;
 }
